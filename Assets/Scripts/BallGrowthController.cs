@@ -18,8 +18,8 @@ public class BallGrowthController : MonoBehaviour {
     {
         if(other.tag == "Ball")
         {
-            this.gameObject.transform.localScale *= 1.5f;
-            this.gameObject.GetComponent<Rigidbody>().mass *= 2.0f;
+            this.gameObject.transform.localScale += new Vector3(0.1f,0.1f,0.1f);
+            this.gameObject.GetComponent<Rigidbody>().mass += 0.1f;
             GameObject.Destroy(other.gameObject);
             
         }
