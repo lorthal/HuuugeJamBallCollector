@@ -12,7 +12,6 @@ public class MagnesController : MonoBehaviour {
     {
         if(isBallInRadius)
         {
-            Debug.Log("ddddd");
             Vector3 directionFromMagnet = transform.position - ball.transform.position;
             float distanceFromBall = Vector3.Distance(transform.position, ball.transform.position);
             float magnesDistanceStrength = (10.0f / distanceFromBall) * magnesStrength;
