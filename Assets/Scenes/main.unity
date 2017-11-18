@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2409,40 +2409,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: magnesStrength
-      value: 67.77
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Radius
-      value: 4.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -91.476
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -180.613
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 8.220993
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: magnesDirection
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114886482870812134, guid: a527441a9791ea04e9ed9d47246b798d,
-        type: 2}
-      propertyPath: magnesDirection
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114886482870812134, guid: a527441a9791ea04e9ed9d47246b798d,
-        type: 2}
-      propertyPath: magnesStrength
-      value: 50
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
   m_IsPrefabParent: 0
@@ -2586,6 +2552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556ee765f995e144fbf3287315ba5615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AddScale: {x: 0.1, y: 0.1, z: 0.1}
+  AddMass: 0.1
 --- !u!43 &1032780235
 Mesh:
   m_ObjectHideFlags: 0
@@ -4154,12 +4122,12 @@ Prefab:
     - target: {fileID: 224636485323046338, guid: 65a5e3b5f68cb3f4aa0cd2f0dce9c6d3,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 766
+      value: 648
       objectReference: {fileID: 0}
     - target: {fileID: 224636485323046338, guid: 65a5e3b5f68cb3f4aa0cd2f0dce9c6d3,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 386.5
+      value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 224636485323046338, guid: 65a5e3b5f68cb3f4aa0cd2f0dce9c6d3,
         type: 2}
