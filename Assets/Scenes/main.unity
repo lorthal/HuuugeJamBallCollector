@@ -2379,43 +2379,41 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.7
+      value: -1.92
       objectReference: {fileID: 0}
     - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.05
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -8.14
+      value: -6.74
       objectReference: {fileID: 0}
     - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.6596151
+      value: -0.04620512
       objectReference: {fileID: 0}
     - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.22809733
+      value: -0.6964091
       objectReference: {fileID: 0}
     - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.23386401
+      value: -0.7145719
       objectReference: {fileID: 0}
     - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.67689526
+      value: 0.04760805
       objectReference: {fileID: 0}
     - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
-    - target: {fileID: 114741486061783174, guid: a527441a9791ea04e9ed9d47246b798d,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: magnesStrength
       value: 67.77
       objectReference: {fileID: 0}
-    - target: {fileID: 135483267847789772, guid: a527441a9791ea04e9ed9d47246b798d,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Radius
       value: 4.3
       objectReference: {fileID: 0}
@@ -2429,12 +2427,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4443958185634848, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 142.478
+      value: 8.220993
       objectReference: {fileID: 0}
-    - target: {fileID: 114741486061783174, guid: a527441a9791ea04e9ed9d47246b798d,
+    - target: {fileID: 0}
+      propertyPath: magnesDirection
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114886482870812134, guid: a527441a9791ea04e9ed9d47246b798d,
         type: 2}
       propertyPath: magnesDirection
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114886482870812134, guid: a527441a9791ea04e9ed9d47246b798d,
+        type: 2}
+      propertyPath: magnesStrength
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
@@ -2904,16 +2911,6 @@ Prefab:
     - target: {fileID: 1017737773553772, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}
       propertyPath: m_Name
       value: Magnes (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 135483267847789772, guid: a527441a9791ea04e9ed9d47246b798d,
-        type: 2}
-      propertyPath: m_Radius
-      value: 4.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 114741486061783174, guid: a527441a9791ea04e9ed9d47246b798d,
-        type: 2}
-      propertyPath: magnesStrength
-      value: 40.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a527441a9791ea04e9ed9d47246b798d, type: 2}

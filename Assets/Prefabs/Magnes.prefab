@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33992427699176150}
   - component: {fileID: 23584298315688818}
   - component: {fileID: 95701208112360528}
-  - component: {fileID: 135483267847789772}
-  - component: {fileID: 114741486061783174}
+  - component: {fileID: 135768722959382380}
+  - component: {fileID: 114886482870812134}
   m_Layer: 0
   m_Name: Magnes
   m_TagString: Untagged
@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1017737773553772}
   m_LocalRotation: {x: -0.69839233, y: -0.10577651, z: -0.111320294, w: 0.6990475}
-  m_LocalPosition: {x: -3.11, y: 2.05, z: 5.5157127}
+  m_LocalPosition: {x: 2.41, y: 5.25, z: 6.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,7 +58,8 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 316655c4296508049adc12a2da898ed2, type: 2}
+  - {fileID: 2100000, guid: 2e475a7c1ec86d549b64fe3f54f69fd1, type: 2}
+  - {fileID: 2100000, guid: f81c6cd292071614b8bc17dac6b8c4cb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,7 +85,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1017737773553772}
-  m_Mesh: {fileID: 4300002, guid: 9216b40866ab216499d0d25d22d1f26c, type: 3}
+  m_Mesh: {fileID: 4300004, guid: 9216b40866ab216499d0d25d22d1f26c, type: 3}
 --- !u!95 &95701208112360528
 Animator:
   serializedVersion: 3
@@ -102,7 +103,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114741486061783174
+--- !u!114 &114886482870812134
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -113,9 +114,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9189488de9d0fa9499cb1f20eeeeee0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magnesStrength: 100
+  magnesStrength: 50
   magnesDirection: 1
---- !u!135 &135483267847789772
+--- !u!135 &135768722959382380
 SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -125,5 +126,5 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3.16
-  m_Center: {x: -6.559857e-15, y: 0.00000059604645, z: -0.000000014901174}
+  m_Radius: 5.77
+  m_Center: {x: 3.0071431e-15, y: -0.00000005960466, z: 0.00000001490117}

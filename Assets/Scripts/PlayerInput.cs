@@ -80,7 +80,7 @@ public class PlayerInput : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
 
     void DrawTrajectory()
     {
-        int vert = 20;
+        int vert = 100;
         line.positionCount = vert;
 
         Vector3 pos = player.transform.position;
