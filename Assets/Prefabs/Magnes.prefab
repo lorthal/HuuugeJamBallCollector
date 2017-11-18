@@ -37,13 +37,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1017737773553772}
-  m_LocalRotation: {x: -0.69839233, y: -0.10577651, z: -0.111320294, w: 0.6990475}
-  m_LocalPosition: {x: 2.41, y: 5.25, z: 6.38}
+  m_LocalRotation: {x: -0.04620512, y: -0.6964091, z: -0.7145719, w: 0.04760805}
+  m_LocalPosition: {x: -1.92, y: 2.01, z: -6.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90.451, y: -105.571, z: 87.909996}
+  m_LocalEulerAnglesHint: {x: -91.476, y: -180.613, z: 8.220993}
 --- !u!23 &23584298315688818
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -58,8 +58,8 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2e475a7c1ec86d549b64fe3f54f69fd1, type: 2}
-  - {fileID: 2100000, guid: f81c6cd292071614b8bc17dac6b8c4cb, type: 2}
+  - {fileID: 2100000, guid: 8e28b2f7b609f0a44992204bc7a14309, type: 2}
+  - {fileID: 2100000, guid: c5e7814a107f62d42a1cdcd307a1d0cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   magnesStrength: 50
-  magnesDirection: 1
+  magnesDirection: -1
 --- !u!135 &135768722959382380
 SphereCollider:
   m_ObjectHideFlags: 1
