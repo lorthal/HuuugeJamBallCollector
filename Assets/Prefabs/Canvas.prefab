@@ -82,6 +82,7 @@ MonoBehaviour:
   player: {fileID: 0}
   force: 10
   maxMagnitude: 50
+  line: {fileID: 0}
 --- !u!114 &114301617228155328
 MonoBehaviour:
   m_ObjectHideFlags: 1
