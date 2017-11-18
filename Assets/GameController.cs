@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour {
 
-    public int BallsToCollect = 3;
+    public int BallsToCollect = 2;
     int currentBalls = 0;
 
 	// Use this for initialization
@@ -14,7 +14,7 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(BallsToCollect >= 5)
+		if(currentBalls >= BallsToCollect)
         {
             Debug.Log("Win");
         }
