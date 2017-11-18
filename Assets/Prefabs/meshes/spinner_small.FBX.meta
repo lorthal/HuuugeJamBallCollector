@@ -1,6 +1,7 @@
 fileFormatVersion: 2
-guid: 9216b40866ab216499d0d25d22d1f26c
-timeCreated: 1511033327
+guid: 1fe87f738d3177c4082594684192c58f
+timeCreated: 1511041436
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -8,31 +9,24 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: block2
-    4300002: Box002
-    4300004: magnes
+    4300000: spinner_small
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #353'
-    second: {fileID: 2100000, guid: 2e475a7c1ec86d549b64fe3f54f69fd1, type: 2}
+      name: 'Material #190'
+    second: {fileID: 2100000, guid: ccc069e73d956494592c6dbb5a4495ac, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #365'
-    second: {fileID: 2100000, guid: f81c6cd292071614b8bc17dac6b8c4cb, type: 2}
+      name: 'Material #305'
+    second: {fileID: 2100000, guid: 2f28dd928ef95d44ea1fcfa5891dc7b1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 316655c4296508049adc12a2da898ed2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _wall (2)Default_Prototype
-    second: {fileID: 2100000, guid: 6aa8c50ab7bbaaf4c96d96265b2cf104, type: 2}
+      name: 'Material #329'
+    second: {fileID: 2100000, guid: 005b0ede83a47584f91bb2fd5ddf573c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

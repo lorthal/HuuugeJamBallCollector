@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33256982913698736}
   - component: {fileID: 23072486800411806}
   - component: {fileID: 95199411204908972}
-  - component: {fileID: 64911417142697180}
-  - component: {fileID: 114495131572977592}
+  - component: {fileID: 114622519195345106}
+  - component: {fileID: 64290046507248500}
   m_Layer: 0
   m_Name: wiatrakPionowy
   m_TagString: Untagged
@@ -37,13 +37,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1610284507796592}
-  m_LocalRotation: {x: -0.29150665, y: 0.2914811, z: -0.6442576, w: 0.644201}
-  m_LocalPosition: {x: -3.46, y: 1.2962503, z: -4.92}
-  m_LocalScale: {x: 0.4528492, y: 0.45284912, z: 0.45284912}
+  m_LocalRotation: {x: -0.06087482, y: 0.060869563, z: -0.70451313, w: 0.7044505}
+  m_LocalPosition: {x: -0.38043475, y: 4.64, z: 4.967069}
+  m_LocalScale: {x: 0.56678903, y: 0.56678903, z: 0.56678903}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 48.691, z: -90.005005}
+  m_LocalEulerAnglesHint: {x: -180, y: 189.877, z: 89.994995}
 --- !u!23 &23072486800411806
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -58,7 +58,9 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6aa8c50ab7bbaaf4c96d96265b2cf104, type: 2}
+  - {fileID: 2100000, guid: ccc069e73d956494592c6dbb5a4495ac, type: 2}
+  - {fileID: 2100000, guid: 2f28dd928ef95d44ea1fcfa5891dc7b1, type: 2}
+  - {fileID: 2100000, guid: 005b0ede83a47584f91bb2fd5ddf573c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,8 +86,8 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1610284507796592}
-  m_Mesh: {fileID: 4300000, guid: ae637ec44f5a60649bd648e4017e7d60, type: 3}
---- !u!64 &64911417142697180
+  m_Mesh: {fileID: 4300000, guid: 1fe87f738d3177c4082594684192c58f, type: 3}
+--- !u!64 &64290046507248500
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -98,7 +100,7 @@ MeshCollider:
   m_Convex: 0
   m_InflateMesh: 0
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: ae637ec44f5a60649bd648e4017e7d60, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 1fe87f738d3177c4082594684192c58f, type: 3}
 --- !u!95 &95199411204908972
 Animator:
   serializedVersion: 3
@@ -107,7 +109,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1610284507796592}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: ae637ec44f5a60649bd648e4017e7d60, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 1fe87f738d3177c4082594684192c58f, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -116,7 +118,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114495131572977592
+--- !u!114 &114622519195345106
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -127,5 +129,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9bc45f429eae6841aed6292e13ec38a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotationSpeed: 5
+  RotationSpeed: 7
   dir: {x: 0, y: 0, z: 1}
