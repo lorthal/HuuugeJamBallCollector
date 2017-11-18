@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 33075464016518328}
   - component: {fileID: 23664045645841068}
   - component: {fileID: 135455837151134616}
-  - component: {fileID: 54695122377280824}
+  - component: {fileID: 54076396657502348}
   m_Layer: 0
   m_Name: kulka
   m_TagString: Untagged
@@ -54,7 +54,7 @@ Transform:
   m_GameObject: {fileID: 1954125049483250}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.783, y: 0.33, z: -5.711}
-  m_LocalScale: {x: 0.18524301, y: 0.18524301, z: 0.18524301}
+  m_LocalScale: {x: 0.370486, y: 0.370486, z: 0.370486}
   m_Children:
   - {fileID: 4225715818431522}
   m_Father: {fileID: 0}
@@ -114,7 +114,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1954125049483250}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &54695122377280824
+--- !u!54 &54076396657502348
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

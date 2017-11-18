@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 9216b40866ab216499d0d25d22d1f26c
-timeCreated: 1511033327
+guid: 62b24187208ef0744912fc6dbbea49d5
+timeCreated: 1511034906
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -8,20 +8,14 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: block2
-    4300002: Box002
+    7400000: Take 001
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 316655c4296508049adc12a2da898ed2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _wall (2)Default_Prototype
-    second: {fileID: 2100000, guid: 6aa8c50ab7bbaaf4c96d96265b2cf104, type: 2}
+      name: 'Material #48'
+    second: {fileID: 2100000, guid: 0d1bdc1972fe84d4bb357994266fd776, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
