@@ -10,13 +10,15 @@ public class PlayerInput : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
 
     public GameObject player;
 
-    public float force, maxMagnitude;
+    public float strength, maxMagnitude;
 
     private float magnitude;
     private Rigidbody rb;
     public LineRenderer line;
 
     private bool pressed;
+
+    private Vector3 forceVector3;
 
     void Start()
     {
@@ -38,22 +40,26 @@ public class PlayerInput : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
 
         magnitude = Vector3.Distance(endScreenPos, startScreenPos);
 
-        direction = -(new Vector3(endScreenPos.x, 0, endScreenPos.y) - new Vector3(startScreenPos.x, 0, startScreenPos.y));
-
         if (magnitude >= maxMagnitude)
         {
+            endScreenPos = startScreenPos - (startScreenPos - endScreenPos).normalized * maxMagnitude;
             magnitude = maxMagnitude;
         }
 
-        if (magnitude >= maxMagnitude / 2.0f)
-        {
-            direction += new Vector3(0, magnitude, 0);
-        }
+        direction = -(new Vector3(endScreenPos.x, 0, endScreenPos.y) - new Vector3(startScreenPos.x, 0, startScreenPos.y));
+
+        //if (magnitude >= maxMagnitude)
+        //{
+        //    magnitude = maxMagnitude;
+        //}
+
+        direction += new Vector3(0, magnitude, 0);
 
         direction = direction.normalized;
 
+        forceVector3 = direction * magnitude * strength;
+
         Debug.DrawRay(player.transform.position, direction, Color.red);
-        //Debug.Log("Magnitude: " + magnitude);
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -67,7 +73,7 @@ public class PlayerInput : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     {
         rb.angularVelocity = Vector3.zero;
         rb.velocity = Vector3.zero;
-        rb.AddForce(direction * magnitude * force);
+        rb.AddForce(forceVector3);
         pressed = false;
         line.gameObject.SetActive(false);
     }
@@ -78,7 +84,7 @@ public class PlayerInput : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
         line.positionCount = vert;
 
         Vector3 pos = player.transform.position;
-        Vector3 vel = ((direction * magnitude * force) / rb.mass) * Time.fixedDeltaTime;
+        Vector3 vel = (forceVector3 / rb.mass) * Time.fixedDeltaTime;
         Vector3 grav = Physics.gravity;
 
         for (int i = 0; i < vert; i++)

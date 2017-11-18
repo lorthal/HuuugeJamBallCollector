@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  force: 10
+  strength: 10
   maxMagnitude: 50
   line: {fileID: 0}
 --- !u!114 &114301617228155328
