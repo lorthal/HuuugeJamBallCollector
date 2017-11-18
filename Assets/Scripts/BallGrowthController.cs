@@ -24,7 +24,7 @@ public class BallGrowthController : MonoBehaviour {
             this.gameObject.transform.localScale += AddScale;
             this.gameObject.GetComponent<Rigidbody>().mass += AddMass;
             GameObject.Destroy(other.gameObject);
-            
+            GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().IncreaseBalls();
         }
     }
 
