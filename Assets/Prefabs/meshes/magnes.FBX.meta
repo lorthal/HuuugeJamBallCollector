@@ -10,8 +10,19 @@ ModelImporter:
     3300000: //RootNode
     4300000: block2
     4300002: Box002
+    4300004: magnes
     9500000: //RootNode
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #353'
+    second: {fileID: 2100000, guid: 2e475a7c1ec86d549b64fe3f54f69fd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #365'
+    second: {fileID: 2100000, guid: f81c6cd292071614b8bc17dac6b8c4cb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
