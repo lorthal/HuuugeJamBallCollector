@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BallGrowthController : MonoBehaviour {
 
+    public Vector3 AddScale = new Vector3(0.1f, 0.1f, 0.1f);
+    public float AddMass = 0.1f;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -18,8 +21,8 @@ public class BallGrowthController : MonoBehaviour {
     {
         if(other.tag == "Ball")
         {
-            this.gameObject.transform.localScale += new Vector3(0.1f,0.1f,0.1f);
-            this.gameObject.GetComponent<Rigidbody>().mass += 0.1f;
+            this.gameObject.transform.localScale += AddScale;
+            this.gameObject.GetComponent<Rigidbody>().mass += AddMass;
             GameObject.Destroy(other.gameObject);
             
         }
