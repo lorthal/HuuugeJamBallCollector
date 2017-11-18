@@ -53,6 +53,7 @@ ModelImporter:
     2300024: spinner
     2300026: trampolina
     2300028: wall
+    2300030: //RootNode
     3300000: block1
     3300002: block2
     3300004: block3
@@ -68,6 +69,7 @@ ModelImporter:
     3300024: spinner
     3300026: trampolina
     3300028: wall
+    3300030: //RootNode
     4300000: block4
     4300002: celNaSrodku_0
     4300004: filar
