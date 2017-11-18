@@ -28,7 +28,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1132796426432460
 GameObject:
   m_ObjectHideFlags: 1
@@ -356,6 +356,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a44325eb516a38498cac56a98904d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RestartButton: {fileID: 114980935356868462}
+  MenuButton: {fileID: 114560180785314784}
 --- !u!114 &114560180785314784
 MonoBehaviour:
   m_ObjectHideFlags: 1
