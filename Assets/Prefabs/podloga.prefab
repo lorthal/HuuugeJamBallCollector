@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33297904273529092}
   - component: {fileID: 23281575157354388}
   - component: {fileID: 95624303417383240}
+  - component: {fileID: 65596006222922800}
   m_Layer: 0
   m_Name: podloga
   m_TagString: Untagged
@@ -56,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: ccc069e73d956494592c6dbb5a4495ac, type: 2}
+  - {fileID: 2100000, guid: 6ba1c2b2df6917b4bb92a1f6d469e065, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,6 +84,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1124688370358894}
   m_Mesh: {fileID: 4300000, guid: 296ca9abb3a6e0449ab2082fada30295, type: 3}
+--- !u!65 &65596006222922800
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1124688370358894}
+  m_Material: {fileID: 13400000, guid: e5676e1a61fa6104daa33684bee7d537, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 32.33591, y: 30.753284, z: 0}
+  m_Center: {x: 0, y: 0, z: -0.000050008308}
 --- !u!95 &95624303417383240
 Animator:
   serializedVersion: 3
