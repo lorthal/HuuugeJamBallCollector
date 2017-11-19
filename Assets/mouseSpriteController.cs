@@ -11,21 +11,10 @@ public class mouseSpriteController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //timer -= Time.deltaTime;
-
-        //if(timer <= 0)
-        //{
-        //    GameObject.Destroy(gameObject);
-        //}
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             GameObject.Destroy(gameObject);
         }
-    }
-
-    private void OnMouseDown()
-    {
-        Destroy(gameObject);
     }
 
 }
