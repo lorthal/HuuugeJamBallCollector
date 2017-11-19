@@ -5,8 +5,8 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
 
-    public GameObject centerKiller, centerWinner;
-    Vector3 targetPackmanLocation = new Vector3(0.1f, 1.9f, 0f);
+    public GameObject centerKiller, centerWinner, platform;
+    Vector3 targetPackmanLocation = new Vector3(0.1f, 1f, 0f);
 
     public int BallsToCollect = 4;
     int currentBalls = 0;
@@ -22,8 +22,13 @@ public class GameController : MonoBehaviour
         }
         if(done)
         {
-            if (centerWinner.transform.position.y <= targetPackmanLocation.y) 
+            if (centerWinner.transform.position.y <= targetPackmanLocation.y)
+            {
                 centerWinner.transform.position = new Vector3(centerWinner.transform.position.x, centerWinner.transform.position.y + Time.deltaTime, centerWinner.transform.position.z);
+                platform.transform.position = new Vector3(platform.transform.position.x, platform.transform.position.y - Time.deltaTime, platform.transform.position.z);
+
+            }
+
         }
 	}
 
