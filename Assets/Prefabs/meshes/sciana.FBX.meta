@@ -9,8 +9,19 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: block4
+    4300002: block
     9500000: //RootNode
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #189'
+    second: {fileID: 2100000, guid: 248940f738ea1164facd4b7b88a7ad15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #365'
+    second: {fileID: 2100000, guid: c5e7814a107f62d42a1cdcd307a1d0cd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
