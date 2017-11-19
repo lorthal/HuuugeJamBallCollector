@@ -39,8 +39,7 @@ GameObject:
   - component: {fileID: 23664045645841068}
   - component: {fileID: 135455837151134616}
   - component: {fileID: 54076396657502348}
-  - component: {fileID: 114166421805956768}
-  - component: {fileID: 114013033374354582}
+  - component: {fileID: 114945909229658266}
   m_Layer: 0
   m_Name: kulka
   m_TagString: Player
@@ -131,20 +130,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114013033374354582
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1954125049483250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 556ee765f995e144fbf3287315ba5615, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AddScale: {x: 0.1, y: 0.1, z: 0.1}
-  AddMass: 0.1
---- !u!114 &114166421805956768
+--- !u!114 &114945909229658266
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
