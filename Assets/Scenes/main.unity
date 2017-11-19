@@ -956,7 +956,7 @@ Prefab:
         type: 2}
       propertyPath: restart
       value: 
-      objectReference: {fileID: 949174206}
+      objectReference: {fileID: 544047282}
     - target: {fileID: 114198352311322284, guid: 8a6025300e8d3e84cab3c1e1e89e6a45,
         type: 2}
       propertyPath: inputPanel
@@ -5686,12 +5686,12 @@ Prefab:
     - target: {fileID: 224636485323046338, guid: 65a5e3b5f68cb3f4aa0cd2f0dce9c6d3,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 237
+      value: 480
       objectReference: {fileID: 0}
     - target: {fileID: 224636485323046338, guid: 65a5e3b5f68cb3f4aa0cd2f0dce9c6d3,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 133.5
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 224636485323046338, guid: 65a5e3b5f68cb3f4aa0cd2f0dce9c6d3,
         type: 2}
