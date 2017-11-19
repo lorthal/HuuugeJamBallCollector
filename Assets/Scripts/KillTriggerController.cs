@@ -12,9 +12,7 @@ public class KillTriggerController : MonoBehaviour
     {
         if (!isOnEnter && other.CompareTag("Player"))
         {
-            restart.SetActive(true);
-            inputPanel.SetActive(false);
-            GetComponent<AudioSource>().Play();
+            EndGame(other);
         }
     }
 
@@ -22,10 +20,19 @@ public class KillTriggerController : MonoBehaviour
     {
         if (isOnEnter && other.CompareTag("Player"))
         {
-            restart.SetActive(true);
-            inputPanel.SetActive(false);
-            GetComponent<AudioSource>().Play();
+            EndGame(other);
         }
     }
-	
+
+
+    void EndGame(Collider other)
+    {
+        restart.SetActive(true);
+        inputPanel.SetActive(false);
+        GetComponent<AudioSource>().Play();
+        other.GetComponent<MeshRenderer>().enabled = false;
+        other.enabled = false;
+        other.gameObject.transform.Find("PS_explosion").gameObject.SetActive(true);
+    }
+
 }
