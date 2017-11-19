@@ -25,6 +25,6 @@ public class RestartController : MonoBehaviour {
 
     void GoToMenu()
     {
-
+        SceneManager.LoadScene("MainMenu");
     }
 }
