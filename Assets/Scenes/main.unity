@@ -2561,56 +2561,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 31
       objectReference: {fileID: 0}
-    - target: {fileID: 23343006182154824, guid: f2506147a2fb30f46818e0940d967018,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73790c37858180049b81f9fc8885028d, type: 2}
-    - target: {fileID: 23343006182154824, guid: f2506147a2fb30f46818e0940d967018,
-        type: 2}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73790c37858180049b81f9fc8885028d, type: 2}
-    - target: {fileID: 23343006182154824, guid: f2506147a2fb30f46818e0940d967018,
-        type: 2}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73790c37858180049b81f9fc8885028d, type: 2}
-    - target: {fileID: 23343006182154824, guid: f2506147a2fb30f46818e0940d967018,
-        type: 2}
-      propertyPath: m_Materials.Array.data[3]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73790c37858180049b81f9fc8885028d, type: 2}
-    - target: {fileID: 198597360339006218, guid: f2506147a2fb30f46818e0940d967018,
-        type: 2}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 150
-      objectReference: {fileID: 0}
-    - target: {fileID: 198597360339006218, guid: f2506147a2fb30f46818e0940d967018,
-        type: 2}
-      propertyPath: randomSeed
-      value: 165093331
-      objectReference: {fileID: 0}
-    - target: {fileID: 114011129396834814, guid: f2506147a2fb30f46818e0940d967018,
-        type: 2}
-      propertyPath: AddScale.x
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 114011129396834814, guid: f2506147a2fb30f46818e0940d967018,
-        type: 2}
-      propertyPath: AddScale.y
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 114011129396834814, guid: f2506147a2fb30f46818e0940d967018,
-        type: 2}
-      propertyPath: AddScale.z
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 114011129396834814, guid: f2506147a2fb30f46818e0940d967018,
-        type: 2}
-      propertyPath: AddMass
-      value: 0.07
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f2506147a2fb30f46818e0940d967018, type: 2}
   m_IsPrefabParent: 0
@@ -2714,7 +2664,7 @@ Prefab:
     - target: {fileID: 224397554825125054, guid: 65a5e3b5f68cb3f4aa0cd2f0dce9c6d3,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 52.800003
+      value: 52.80002
       objectReference: {fileID: 0}
     - target: {fileID: 114175252811205148, guid: 65a5e3b5f68cb3f4aa0cd2f0dce9c6d3,
         type: 2}
