@@ -6,11 +6,10 @@ using UnityEngine;
 
 public class MainMenuController : MonoBehaviour {
 
-    public Button StartButton, ControlsButton, AboutButton, ExitButton;
+    public Button StartButton, AboutButton, ExitButton;
 	// Use this for initialization
 	void Start () {
         StartButton.onClick.AddListener(OnStart);
-        ControlsButton.onClick.AddListener(OnControls);
         AboutButton.onClick.AddListener(OnAbout);
         ExitButton.onClick.AddListener(OnExit);
     }
@@ -19,10 +18,6 @@ public class MainMenuController : MonoBehaviour {
     void OnStart()
     {
         SceneManager.LoadScene(1);
-    }
-    void OnControls()
-    {
-
     }
     void OnAbout()
     {
