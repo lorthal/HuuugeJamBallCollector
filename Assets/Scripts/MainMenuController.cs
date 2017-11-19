@@ -14,15 +14,11 @@ public class MainMenuController : MonoBehaviour {
         AboutButton.onClick.AddListener(OnAbout);
         ExitButton.onClick.AddListener(OnExit);
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 
     void OnStart()
     {
-        Application.LoadLevel(1);
+        SceneManager.LoadScene(1);
     }
     void OnControls()
     {

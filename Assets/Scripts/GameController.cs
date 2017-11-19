@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
 
     public GameObject centerKiller, centerWinner;
 
-    public int BallsToCollect = 2;
+    public int BallsToCollect = 4;
     int currentBalls = 0;
 
     private bool done;
