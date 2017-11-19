@@ -13,7 +13,7 @@ public class Trampoline : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            other.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0, BounceStrength, 0));
+            other.gameObject.GetComponent<Rigidbody>().AddForce((transform.rotation * Vector3.forward).normalized * BounceStrength);
         }
     }
 
