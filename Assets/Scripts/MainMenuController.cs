@@ -17,11 +17,11 @@ public class MainMenuController : MonoBehaviour {
 
     void OnStart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("main");
     }
     void OnAbout()
     {
-
+        SceneManager.LoadScene("Credits");
     }
     void OnExit()
     {
