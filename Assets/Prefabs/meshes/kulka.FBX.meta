@@ -53,6 +53,7 @@ ModelImporter:
     2300024: spinner
     2300026: trampolina
     2300028: wall
+    2300030: //RootNode
     3300000: block1
     3300002: block2
     3300004: block3
@@ -68,6 +69,7 @@ ModelImporter:
     3300024: spinner
     3300026: trampolina
     3300028: wall
+    3300030: //RootNode
     4300000: block4
     4300002: celNaSrodku_0
     4300004: filar
@@ -83,6 +85,7 @@ ModelImporter:
     4300024: spinner
     4300026: floor
     4300028: wall
+    4300030: ball
     9500000: //RootNode
   externalObjects:
   - first:
@@ -95,6 +98,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: 'Material #190'
     second: {fileID: 2100000, guid: ccc069e73d956494592c6dbb5a4495ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #353'
+    second: {fileID: 2100000, guid: 8e28b2f7b609f0a44992204bc7a14309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #424'
+    second: {fileID: 2100000, guid: 5964c4b7e979a63419f56e5b4f533ce1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

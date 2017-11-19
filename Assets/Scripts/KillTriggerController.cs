@@ -14,6 +14,7 @@ public class KillTriggerController : MonoBehaviour
         {
             restart.SetActive(true);
             inputPanel.SetActive(false);
+            GetComponent<AudioSource>().Play();
         }
     }
 
@@ -23,6 +24,7 @@ public class KillTriggerController : MonoBehaviour
         {
             restart.SetActive(true);
             inputPanel.SetActive(false);
+            GetComponent<AudioSource>().Play();
         }
     }
 	
