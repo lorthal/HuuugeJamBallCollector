@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4521542031807902}
   - component: {fileID: 114198352311322284}
-  - component: {fileID: 65966105932087106}
+  - component: {fileID: 136274967580557412}
   m_Layer: 0
   m_Name: KillCollider
   m_TagString: Untagged
@@ -34,25 +34,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1161575861350368}
-  m_LocalRotation: {x: 0, y: 0.3459533, z: 0, w: 0.93825173}
-  m_LocalPosition: {x: -7.25, y: 10, z: 7.08}
-  m_LocalScale: {x: 1, y: 20, z: 5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.33, y: 14.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 40.48, z: 0}
---- !u!65 &65966105932087106
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1161575861350368}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114198352311322284
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -66,3 +54,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   restart: {fileID: 0}
   inputPanel: {fileID: 0}
+  isOnEnter: 0
+--- !u!136 &136274967580557412
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1161575861350368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 12.61
+  m_Height: 50
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}

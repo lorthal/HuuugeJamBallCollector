@@ -2068,7 +2068,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4521542031807902, guid: 8a6025300e8d3e84cab3c1e1e89e6a45, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.14
+      value: 1.33
       objectReference: {fileID: 0}
     - target: {fileID: 4521542031807902, guid: 8a6025300e8d3e84cab3c1e1e89e6a45, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2098,54 +2098,23 @@ Prefab:
       propertyPath: m_RootOrder
       value: 42
       objectReference: {fileID: 0}
-    - target: {fileID: 4521542031807902, guid: 8a6025300e8d3e84cab3c1e1e89e6a45, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521542031807902, guid: 8a6025300e8d3e84cab3c1e1e89e6a45, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521542031807902, guid: 8a6025300e8d3e84cab3c1e1e89e6a45, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1161575861350368, guid: 8a6025300e8d3e84cab3c1e1e89e6a45, type: 2}
-      propertyPath: m_Name
-      value: KillColliderBounds
-      objectReference: {fileID: 0}
-    - target: {fileID: 114198352311322284, guid: 8a6025300e8d3e84cab3c1e1e89e6a45,
-        type: 2}
-      propertyPath: inputPanel
-      value: 
-      objectReference: {fileID: 439059311}
     - target: {fileID: 114198352311322284, guid: 8a6025300e8d3e84cab3c1e1e89e6a45,
         type: 2}
       propertyPath: restart
       value: 
       objectReference: {fileID: 949174206}
-    m_RemovedComponents:
-    - {fileID: 65966105932087106, guid: 8a6025300e8d3e84cab3c1e1e89e6a45, type: 2}
+    - target: {fileID: 114198352311322284, guid: 8a6025300e8d3e84cab3c1e1e89e6a45,
+        type: 2}
+      propertyPath: inputPanel
+      value: 
+      objectReference: {fileID: 439059311}
+    - target: {fileID: 1161575861350368, guid: 8a6025300e8d3e84cab3c1e1e89e6a45, type: 2}
+      propertyPath: m_Name
+      value: KillColliderBounds
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8a6025300e8d3e84cab3c1e1e89e6a45, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &780404389 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1161575861350368, guid: 8a6025300e8d3e84cab3c1e1e89e6a45,
-    type: 2}
-  m_PrefabInternal: {fileID: 780404388}
---- !u!136 &780404390
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 780404389}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 11
-  m_Height: 50
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &792358558
 Prefab:
   m_ObjectHideFlags: 0
