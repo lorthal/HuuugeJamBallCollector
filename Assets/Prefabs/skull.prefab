@@ -24,7 +24,8 @@ GameObject:
   - component: {fileID: 95636349290579000}
   - component: {fileID: 114312830199605058}
   - component: {fileID: 65403618014156236}
-  - component: {fileID: 114735888302151454}
+  - component: {fileID: 65821722597524668}
+  - component: {fileID: 114452077052835464}
   m_Layer: 0
   m_Name: skull
   m_TagString: Untagged
@@ -98,6 +99,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 59.00186, y: 50.036453, z: 4.408392}
   m_Center: {x: -2.92723, y: 0, z: 0.00000011920929}
+--- !u!65 &65821722597524668
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986524597519230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 59.00186, y: 50.036453, z: 4.408392}
+  m_Center: {x: -2.92723, y: 0, z: 0.00000011920929}
 --- !u!95 &95636349290579000
 Animator:
   serializedVersion: 3
@@ -128,7 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RotationSpeed: 2
   dir: {x: 1, y: 0, z: 0}
---- !u!114 &114735888302151454
+--- !u!114 &114452077052835464
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
