@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : MonoBehaviour {
+public class GameController : MonoBehaviour
+{
+
+    public GameObject centerKiller, centerWinner;
 
     public int BallsToCollect = 2;
     int currentBalls = 0;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+    private bool done;
+    
 	void Update () {
-		if(currentBalls >= BallsToCollect)
-        {
-            Debug.Log("Win");
+		if(!done && currentBalls >= BallsToCollect)
+		{
+		    done = true;
+            centerKiller.SetActive(false);
+            centerWinner.SetActive(true);
         }
 	}
 

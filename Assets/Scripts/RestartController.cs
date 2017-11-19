@@ -20,7 +20,7 @@ public class RestartController : MonoBehaviour {
 
     void Restart()
     {
-        Application.LoadLevel(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     void GoToMenu()
