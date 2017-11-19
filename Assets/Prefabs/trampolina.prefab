@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 64841496977456764}
   - component: {fileID: 82429668992810280}
   - component: {fileID: 114891479182032580}
+  - component: {fileID: 114427045552723614}
+  - component: {fileID: 65154181260191876}
   m_Layer: 0
   m_Name: trampolina
   m_TagString: Untagged
@@ -44,7 +46,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -30.000002, y: 54.654003, z: -180.00002}
+  m_LocalEulerAnglesHint: {x: -31.092001, y: 207.31999, z: -179.99998}
 --- !u!23 &23421878868896054
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -93,7 +95,7 @@ MeshCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1215021581804350}
-  m_Material: {fileID: 13400000, guid: e7da2b6012e1af342bed4020f70cfb95, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -101,6 +103,18 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300010, guid: c9633f062328a994f92994f4bccb0265, type: 3}
+--- !u!65 &65154181260191876
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215021581804350}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3723047, y: 1.3356704, z: 0.13}
+  m_Center: {x: -0.002844227, y: 0.010642609, z: 0.02}
 --- !u!82 &82429668992810280
 AudioSource:
   m_ObjectHideFlags: 1
@@ -198,6 +212,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114427045552723614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215021581804350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 060df462a9a812447b904fbcb6ee5b20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BounceStrength: 500
 --- !u!114 &114891479182032580
 MonoBehaviour:
   m_ObjectHideFlags: 1
