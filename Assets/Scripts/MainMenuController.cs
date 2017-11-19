@@ -18,6 +18,7 @@ public class MainMenuController : MonoBehaviour {
     void OnStart()
     {
         SceneManager.LoadScene("main");
+        MusicController.ChangeTrack(MusicController.Track.Game);
     }
     void OnAbout()
     {
