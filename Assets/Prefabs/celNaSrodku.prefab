@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33473026363432742}
   - component: {fileID: 23596521045203338}
   - component: {fileID: 95702539326168984}
+  - component: {fileID: 136641703501351710}
   m_Layer: 0
   m_Name: celNaSrodku
   m_TagString: Untagged
@@ -36,12 +37,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1533446887925126}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.135, y: 0.12, z: -0.18}
+  m_LocalPosition: {x: 0.05, y: 0.12, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23596521045203338
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -56,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6aa8c50ab7bbaaf4c96d96265b2cf104, type: 2}
+  - {fileID: 2100000, guid: 948daa36a29c9b44a80da3a33ccacb30, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,7 +83,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1533446887925126}
-  m_Mesh: {fileID: 4300002, guid: 03eb0ce60cf65444d990c05dc74a030c, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 03eb0ce60cf65444d990c05dc74a030c, type: 3}
 --- !u!95 &95702539326168984
 Animator:
   serializedVersion: 3
@@ -100,3 +101,16 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!136 &136641703501351710
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1533446887925126}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.65
+  m_Height: 2.35
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.61560965}
