@@ -26,5 +26,6 @@ public class RestartController : MonoBehaviour {
     void GoToMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        MusicController.ChangeTrack(MusicController.Track.Menu);
     }
 }

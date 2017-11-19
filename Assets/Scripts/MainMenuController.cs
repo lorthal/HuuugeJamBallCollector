@@ -17,11 +17,12 @@ public class MainMenuController : MonoBehaviour {
 
     void OnStart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("main");
+        MusicController.ChangeTrack(MusicController.Track.Game);
     }
     void OnAbout()
     {
-
+        SceneManager.LoadScene("Credits");
     }
     void OnExit()
     {
