@@ -70,11 +70,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4085197640583916}
   - component: {fileID: 33075464016518328}
-  - component: {fileID: 23664045645841068}
   - component: {fileID: 135455837151134616}
   - component: {fileID: 54076396657502348}
   - component: {fileID: 82658843227162998}
   - component: {fileID: 114011129396834814}
+  - component: {fileID: 23343006182154824}
   m_Layer: 0
   m_Name: kulka
   m_TagString: Player
@@ -137,7 +137,7 @@ Transform:
   m_Father: {fileID: 4085197640583916}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23664045645841068
+--- !u!23 &23343006182154824
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -151,7 +151,10 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 73790c37858180049b81f9fc8885028d, type: 2}
+  - {fileID: 2100000, guid: 248940f738ea1164facd4b7b88a7ad15, type: 2}
+  - {fileID: 2100000, guid: ccc069e73d956494592c6dbb5a4495ac, type: 2}
+  - {fileID: 2100000, guid: dc33e00f2dea0474395330b3c6389935, type: 2}
+  - {fileID: 2100000, guid: 8e28b2f7b609f0a44992204bc7a14309, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -159,7 +162,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
+  m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
@@ -177,7 +180,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1954125049483250}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300000, guid: 180549da484ed2848b5fde59f3d3d703, type: 3}
 --- !u!54 &54076396657502348
 Rigidbody:
   m_ObjectHideFlags: 1
